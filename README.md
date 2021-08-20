@@ -48,6 +48,12 @@ I then proceeded to compare media and non-media unigrams, bigrams and trigrams f
 
 This step is, IMHO, the most relevant and revealing of a newsless Facebook.
 
+For example, the most characteristic bigrams of the media and non-media canadian subcorpora really show how different Facebook would be without news.
+
+![]( bigrams-canada-media.png.png)
+
+![]( bigrams-canada-nonmedia.png.png)
+
 ### Step 3 : topic modeling
 
 The last step involved an exploratory topic modeling on all 8 subcorpora.
