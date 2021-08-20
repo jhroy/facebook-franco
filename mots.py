@@ -1,5 +1,5 @@
 # coding: utf-8
-# ©2020, Jean-Hugues Roy - Licence GNU GPL v3
+# ©2021, Jean-Hugues Roy - Licence GNU GPL v3
 
 import csv
 import spacy
