@@ -35,7 +35,12 @@ The 24 csv files (3 n-gram types * 2 categories * 4 countries) produced by these
 
 ### Step 2 : chi-squared (χ<sup>2</sup>) residuals
 
-I then proceeded to compare media and non-media unigrams, bigrams and trigrams for each country. Here is an example of the code used to compute the chi-squared residuals with pandas and to produce graphs with plotly for Switzerland. ⚠️ The code in the following jupyter notebook can be rather memory intensive.
+I then proceeded to compare media and non-media unigrams, bigrams and trigrams for each country. This was done using a jupyter notebook for each country. The raw notebooks are too big to be shared directly in github. They were placed on an personal server in HTML form&nbsp;:
 
-- [**khi2-suisse.ipynb**](khi2-suisse.ipynb)
+- [**khi2-belgique**](http://jhroy.ca/facebook-franco/khi2-belgique.html) 🇧🇪
+- [**khi2-canada**](http://jhroy.ca/facebook-franco/khi2-canada.html) 🇨🇦
+- [**khi2-france**](http://jhroy.ca/facebook-franco/khi2-france.html) 🇫🇷
+- [**khi2-suisse**](http://jhroy.ca/facebook-franco/khi2-suisse.html) 🇨🇭
+
+
 
