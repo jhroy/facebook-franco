@@ -66,4 +66,22 @@ I used BERTopic with three different models&nbsp;:
 - [FlauBERT](https://github.com/getalp/Flaubert)
 - [CamemBERT](https://camembert-model.fr/)
 
+The four runs were performed on each month for all 8 suborpora. Since topic modeling is extremely memory intensive, some months had to be cut in two in the case of the non-media French subcorpus. Below are examples of the topics given for the month of June for both media and non-media subcorpora by country and by model.
+
+Topics for media subcorpora (Belgium, June 2020)&nbsp;:
+
+- 
+
+Topics for media subcorpora (Canada, June 2020)&nbsp;:
+Topics for media subcorpora (France, June 2020)&nbsp;:
+Topics for media subcorpora (Switzerland, June 2020)&nbsp;:
+
+
+
+Topics for nonmedia subcorpora (June 2020)&nbsp;:
+
 I found CamemBERT produced much more coherent, robust and easy to interpret topics in French.
+
+Figure 5, in the article, presents a compound of all 384 tables produced by my topic modeling runs containing more than 5,000 topics.
+
+![](fig5.png)
