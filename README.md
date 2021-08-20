@@ -66,4 +66,4 @@ I used BERTopic with three different models&nbsp;:
 - [FlauBERT](https://github.com/getalp/Flaubert)
 - [CamemBERT](https://camembert-model.fr/)
 
-I found CamemBERT to produced much more coherent, robust and easy to interpret topics in French.
+I found CamemBERT produced much more coherent, robust and easy to interpret topics in French.
