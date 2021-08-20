@@ -56,5 +56,14 @@ For example, the most characteristic bigrams of the media and non-media canadian
 
 ### Step 3 : topic modeling
 
-The last step involved an exploratory topic modeling on all 8 subcorpora.
+The last step involved an exploratory topic modeling on all 8 subcorpora using [BERTopic](https://maartengr.github.io/BERTopic/index.html) in the following script&nbsp;:
 
+- [**topicBERT.py**](topicBERT.py)
+
+I used BERTopic with three different models&nbsp;:
+
+- [spAcy's ```fr_core_news_md``` model](https://spacy.io/models/fr) (2 runs with different parameters)
+- [FlauBERT](https://github.com/getalp/Flaubert)
+- [CamemBERT](https://camembert-model.fr/)
+
+I found CamemBERT to produced much more coherent, robust and easy to interpret topics in French.
