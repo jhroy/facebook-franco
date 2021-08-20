@@ -28,3 +28,8 @@ To extract unigrams, bigrams and trigrams from each of the 8 subcorpora, I used 
 All n-grams were then cleaned-up (to remove residual punctuation or funky whitespace characters, for example) and uniformized using this script&nbsp;:
 
 - [**nettoyage.py**](nettoyage.py)
+
+The 24 csv files (3 n-gram types * 2 categories * 4 countries) produced by these scripts were between 3.6M and 37.3M lines long. They were reduced by performing pivot tables using pandas, such as this notebook for Belgium files&nbsp;:
+
+- [**123-grams.ipynb**](123-grams.ipynb)
+
