@@ -84,4 +84,4 @@ I found CamemBERT produced much more coherent, robust and easy to interpret topi
 
 Figure 5, in the article, presents a compound of all 384 tables produced by my topic modeling runs containing more than 5,000 topics.
 
-![](images/Fig5.png)
+![](images/Fig5.jpg)
