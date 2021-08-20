@@ -17,7 +17,7 @@ The pages in this final sample were then manually classified in two categories (
 
 Those results are also summarized in the following graph.
 
-![](FBfrancophonie-bilan.png)
+![](FBfrancophonie-bilan-2.png)
 
 [CrowdTangle's ToS](https://www.crowdtangle.com/terms/) do not allow the sharing of raw data. However, a summary of interaction types by subcorpora (8 subcorpora in total; one per country and per type [media vs nonmedia]) can be found in the following CSV file&nbsp;:
 
