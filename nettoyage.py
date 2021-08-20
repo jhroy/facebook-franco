@@ -3,14 +3,9 @@
 
 import csv, unicodeblock.blocks
 
-# exemple = "canada/canada-motsSeuls-nonmedia-tableaucroise.csv"
-
 francophonie = ["canada","suisse","belgique","france"]
 ngrams = ["motsSeuls","bigrammes","trigrammes"]
-# ngrams = ["bigrammes","trigrammes"]
-# ngrams = ["trigrammes"]
 types = ["media","nonmedia"]
-# types = ["nonmedia"]
 
 def nettoyage(t):
     # print(t)
