@@ -17,7 +17,7 @@ The pages in this final sample were then manually classified in two categories (
 
 Those results are also summarized in the following graph.
 
-![](FBfrancophonie-bilan-2.png)
+![](images/FBfrancophonie-bilan.png)
 
 [CrowdTangle's ToS](https://www.crowdtangle.com/terms/) do not allow the sharing of raw data. However, a summary of interaction types by subcorpora (8 subcorpora in total; one per country and per type [media vs nonmedia]) can be found in the following CSV file&nbsp;:
 
@@ -50,9 +50,9 @@ This step is, IMHO, the most relevant and revealing of a newsless Facebook.
 
 For example, the most characteristic bigrams of the media and non-media canadian subcorpora really show how different Facebook would be without news.
 
-![](bigrams-canada-media.png)
+![](images/bigrams-canada-media.png)
 
-![](bigrams-canada-nonmedia.png)
+![](images/bigrams-canada-nonmedia.png)
 
 ### Step 3 : topic modeling
 
@@ -84,4 +84,4 @@ I found CamemBERT produced much more coherent, robust and easy to interpret topi
 
 Figure 5, in the article, presents a compound of all 384 tables produced by my topic modeling runs containing more than 5,000 topics.
 
-![](fig5.png)
+![](images/Fig5.png)
