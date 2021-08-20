@@ -10,10 +10,14 @@ One of the steps in the filtering involved determining the language of each post
 
 The pages in this final sample were then manually classified in two categories (criteria described in the article)&nbsp;: media and non-media. The following four CSV files show how pages were classified in each country, along with the number of posts and sum of interactions from each page (only those posts that were included in my sample)&nbsp;:
 
-- [**belgique2020-pages-fb-fr.csv**](belgique2020-pages-fb-fr.csv)
-- [**canada2020-pages-fb-fr.csv**](canada2020-pages-fb-fr.csv)
-- [**france2020-pages-fb-fr.csv**](france2020-pages-fb-fr.csv)
-- [**suisse2020-pages-fb-fr.csv**](suisse2020-pages-fb-fr.csv)
+- [**belgique2020-pages-fb-fr.csv**](belgique2020-pages-fb-fr.csv) 🇧🇪
+- [**canada2020-pages-fb-fr.csv**](canada2020-pages-fb-fr.csv) 🇨🇦
+- [**france2020-pages-fb-fr.csv**](france2020-pages-fb-fr.csv) 🇫🇷
+- [**suisse2020-pages-fb-fr.csv**](suisse2020-pages-fb-fr.csv) 🇨🇭
+
+Those results are also summarized in the following graph.
+
+![](FBfrancophonie-bilan.png)
 
 [CrowdTangle's ToS](https://www.crowdtangle.com/terms/) do not allow the sharing of raw data. However, a summary of interaction types by subcorpora (8 subcorpora in total; one per country and per type [media vs nonmedia]) can be found in the following CSV file&nbsp;:
 
@@ -35,12 +39,16 @@ The 24 csv files (3 n-gram types * 2 categories * 4 countries) produced by these
 
 ### Step 2 : chi-squared (χ<sup>2</sup>) residuals
 
-I then proceeded to compare media and non-media unigrams, bigrams and trigrams for each country. This was done using a jupyter notebook for each country. The raw notebooks are too big to be shared directly in github. They were placed on an personal server in HTML form&nbsp;:
+I then proceeded to compare media and non-media unigrams, bigrams and trigrams for each country. This was done in a jupyter notebook for each country, producing graphs with [plotly express for python](https://plotly.com/python/plotly-express/). The raw notebooks are too big to be shared directly in github. They were placed on an personal server in HTML format&nbsp;:
 
-- [**khi2-belgique**](http://jhroy.ca/facebook-franco/khi2-belgique.html) 🇧🇪
-- [**khi2-canada**](http://jhroy.ca/facebook-franco/khi2-canada.html) 🇨🇦
-- [**khi2-france**](http://jhroy.ca/facebook-franco/khi2-france.html) 🇫🇷
-- [**khi2-suisse**](http://jhroy.ca/facebook-franco/khi2-suisse.html) 🇨🇭
+- [**khi2-belgique**](http://jhroy.ca/facebook-franco/khi2-belgique.html)
+- [**khi2-canada**](http://jhroy.ca/facebook-franco/khi2-canada.html)
+- [**khi2-france**](http://jhroy.ca/facebook-franco/khi2-france.html)
+- [**khi2-suisse**](http://jhroy.ca/facebook-franco/khi2-suisse.html)
 
+This step is, IMHO, the most relevant and revealing of a newsless Facebook.
 
+### Step 3 : topic modeling
+
+The last step involved an exploratory topic modeling on all 8 subcorpora.
 
