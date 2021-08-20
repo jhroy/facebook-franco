@@ -84,13 +84,51 @@ Topics for **media** subcorpora (June 2020)&nbsp;:
   - [As given by the **FlauBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/canada-flaubert-media-2020-06.csv)
   - [As given by the **CamemBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/canada-camembert-media-2020-06.csv)
 
-Topics for media subcorpora (Canada, June 2020)&nbsp;:
-Topics for media subcorpora (France, June 2020)&nbsp;:
-Topics for media subcorpora (Switzerland, June 2020)&nbsp;:
+- In France 🇫🇷 :
+
+  - [As given by the **first run with spaCy's model** (20 topics, 2 terms each, 20 terms per topic)](berTOPIC/france-spacy1-media-2020-06.csv)
+  - [As given by the **second run with spaCy's model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/france-spacy2-media-2020-06.csv)
+  - [As given by the **FlauBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/france-flaubert-media-2020-06.csv)
+  - [As given by the **CamemBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/france-camembert-media-2020-06.csv)
+
+- In Switzerland 🇨🇭 :
+
+  - [As given by the **first run with spaCy's model** (20 topics, 2 terms each, 20 terms per topic)](berTOPIC/suisse-spacy1-media-2020-06.csv)
+  - [As given by the **second run with spaCy's model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/suisse-spacy2-media-2020-06.csv)
+  - [As given by the **FlauBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/suisse-flaubert-media-2020-06.csv)
+  - [As given by the **CamemBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/suisse-camembert-media-2020-06.csv)
+
+Topics for **non-media** subcorpora (June 2020)&nbsp;:
+
+- In Belgium 🇧🇪 :
+
+  - [As given by the **first run with spaCy's model** (20 topics, 2 terms each, 20 terms per topic)](berTOPIC/belgique-spacy1-nonmedia-2020-06.csv)
+  - [As given by the **second run with spaCy's model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/belgique-spacy2-nonmedia-2020-06.csv)
+  - [As given by the **FlauBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/belgique-flaubert-nonmedia-2020-06.csv)
+  - [As given by the **CamemBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/belgique-camembert-nonmedia-2020-06.csv)
+
+- In Canada 🇨🇦 :
+
+  - [As given by the **first run with spaCy's model** (20 topics, 2 terms each, 20 terms per topic)](berTOPIC/canada-spacy1-nonmedia-2020-06.csv)
+  - [As given by the **second run with spaCy's model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/canada-spacy2-nonmedia-2020-06.csv)
+  - [As given by the **FlauBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/canada-flaubert-nonmedia-2020-06.csv)
+  - [As given by the **CamemBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/canada-camembert-nonmedia-2020-06.csv)
+
+- In France 🇫🇷 (here, with the FlauBERT and CamemBERT models, the subcorpus had to be split in half, thus the CSV files contain 24 topics instead of 12:
+
+  - [As given by the **first run with spaCy's model** (20 topics, 2 terms each, 20 terms per topic)](berTOPIC/france-spacy1-nonmedia-2020-06.csv)
+  - [As given by the **second run with spaCy's model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/france-spacy2-nonmedia-2020-06.csv)
+  - [As given by the **FlauBERT model** (24 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/france-flaubert-nonmedia-2020-06.csv)
+  - [As given by the **CamemBERT model** (24 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/france-camembert-nonmedia-2020-06.csv)
+
+- In Switzerland 🇨🇭 :
+
+  - [As given by the **first run with spaCy's model** (20 topics, 2 terms each, 20 terms per topic)](berTOPIC/suisse-spacy1-nonmedia-2020-06.csv)
+  - [As given by the **second run with spaCy's model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/suisse-spacy2-nonmedia-2020-06.csv)
+  - [As given by the **FlauBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/suisse-flaubert-nonmedia-2020-06.csv)
+  - [As given by the **CamemBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/suisse-camembert-nonmedia-2020-06.csv)
 
 
-
-Topics for nonmedia subcorpora (June 2020)&nbsp;:
 
 I found CamemBERT produced much more coherent, robust and easy to interpret topics in French.
 
