@@ -62,15 +62,27 @@ The last step involved an exploratory topic modeling on all 8 subcorpora using [
 
 I used BERTopic with three different models&nbsp;:
 
-- [spAcy's ```fr_core_news_md``` model](https://spacy.io/models/fr) (2 runs with different parameters)
+- [spaCy's ```fr_core_news_md``` model](https://spacy.io/models/fr) (2 runs with different parameters)
 - [FlauBERT](https://github.com/getalp/Flaubert)
 - [CamemBERT](https://camembert-model.fr/)
 
 The four runs were performed on each month for all 8 suborpora. Since topic modeling is extremely memory intensive, some months had to be cut in two in the case of the non-media French subcorpus. Below are examples of the topics given for the month of June for both media and non-media subcorpora by country and by model.
 
-Topics for media subcorpora (Belgium, June 2020)&nbsp;:
+Topics for **media** subcorpora (June 2020)&nbsp;:
 
-- 
+- In Belgium 🇧🇪 :
+
+  - [As given by the **first run with spaCy's model** (20 topics, 2 terms each, 20 terms per topic)](bertopic/belgique-spacy1-media-2020-06.csv)
+  - [As given by the **second run with spaCy's model** (12 topics, 1-2 terms each, 8 terms per topic)](bertopic/belgique-spacy2-media-2020-06.csv)
+  - [As given by the **FlauBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](bertopic/belgique-flaubert-media-2020-06.csv)
+  - [As given by the **CamemBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](bertopic/belgique-camembert-media-2020-06.csv)
+
+- In Canada 🇨🇦 :
+
+  - [As given by the **first run with spaCy's model** (20 topics, 2 terms each, 20 terms per topic)](bertopic/canada-spacy1-media-2020-06.csv)
+  - [As given by the **second run with spaCy's model** (12 topics, 1-2 terms each, 8 terms per topic)](bertopic/canada-spacy2-media-2020-06.csv)
+  - [As given by the **FlauBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](bertopic/canada-flaubert-media-2020-06.csv)
+  - [As given by the **CamemBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](bertopic/canada-camembert-media-2020-06.csv)
 
 Topics for media subcorpora (Canada, June 2020)&nbsp;:
 Topics for media subcorpora (France, June 2020)&nbsp;:
