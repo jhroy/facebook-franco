@@ -56,7 +56,7 @@ For example, the most characteristic bigrams of the media and non-media canadian
 
 ### Step 3 : topic modeling
 
-The last step involved an exploratory topic modeling on all 8 subcorpora using [BERTopic](https://maartengr.github.io/BERTopic/index.html) in the following script&nbsp;:
+The last step involved an exploratory topic modeling on all 8 subcorpora using [BERTopic](https://maartengr.github.io/BERTopic/index.html) using the following script&nbsp;:
 
 - [**topicBERT.py**](topicBERT.py)
 
@@ -66,7 +66,7 @@ I used BERTopic with three different models&nbsp;:
 - [FlauBERT](https://github.com/getalp/Flaubert)
 - [CamemBERT](https://camembert-model.fr/)
 
-The four runs were performed on each month for all 8 suborpora. Since topic modeling is extremely memory intensive, some months had to be cut in two in the case of the non-media French subcorpus. Below are examples of the topics given for the month of June for both media and non-media subcorpora by country and by model.
+The four runs were performed on each month for all 8 suborpora. Since topic modeling is extremely memory intensive, some months with a very hefty amount of material had to be cut in two (such as in the case of the non-media French subcorpus). Below are examples of the topics given for the month of June for both media and non-media subcorpora by country and by model.
 
 Topics for **media** subcorpora (June 2020)&nbsp;:
 
@@ -128,8 +128,10 @@ Topics for **non-media** subcorpora (June 2020)&nbsp;:
   - [As given by the **FlauBERT model** (12 topics, 1-2 lemmas per term, 8 terms per topic)](berTOPIC/suisse-flaubert-nonmedia-2020-06.csv)
   - [As given by the **CamemBERT model** (12 topics, 1-2 lemmas per term, 8 terms per topic)](berTOPIC/suisse-camembert-nonmedia-2020-06.csv)
 
-I found CamemBERT produced much more coherent, robust and easy to interpret topics in French.
+I found that asking the models to provide either one or two lemmas per term (unigrams or bigrams) produced richer topics. I also found CamemBERT produced much more coherent, robust and easy to interpret topics with French-language text.
 
 The following figure, in the article, presents a compound of all 384 tables produced by my topic modeling runs containing more than 5,000 topics.
 
 ![](images/Fig5.jpg)
+
+I will gladly answer any question researchers wanting to reproduce these findings or replicate them in another context would have&nbsp;: [roy.jean-hugues@uqam.ca](mailto:roy.jean-hugues@uqam.ca)
