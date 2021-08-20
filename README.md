@@ -15,10 +15,16 @@ The pages in this final sample were then manually classified in two categories (
 - [**france2020-pages-fb-fr.csv**](france2020-pages-fb-fr.csv)
 - [**suisse2020-pages-fb-fr.csv**](suisse2020-pages-fb-fr.csv)
 
-[CrowdTangle's ToS](https://www.crowdtangle.com/terms/) do not allow the sharing of raw data. However, a summary of interaction types by subcorpora (one per country and per type [media vs nonmedia]) can be found in the following CSV file&nbsp;:
+[CrowdTangle's ToS](https://www.crowdtangle.com/terms/) do not allow the sharing of raw data. However, a summary of interaction types by subcorpora (8 subcorpora in total; one per country and per type [media vs nonmedia]) can be found in the following CSV file&nbsp;:
 
 - [**francophonie2020-sommaire.csv**](francophonie2020-sommaire.csv)
 
 ### Step 1 : n-gram extraction
 
-Once my corpus was created, I then proceeded to 
+To extract unigrams, bigrams and trigrams from each of the 8 subcorpora, I used this python script&nbsp;:
+
+- [**mots.py**](mots.py)
+
+All n-grams were then cleaned-up (to remove residual punctuation or funky whitespace characters, for example) and uniformized using this script&nbsp;:
+
+- [**nettoyage.py**](nettoyage.py)
