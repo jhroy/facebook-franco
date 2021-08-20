@@ -82,6 +82,6 @@ Topics for nonmedia subcorpora (June 2020)&nbsp;:
 
 I found CamemBERT produced much more coherent, robust and easy to interpret topics in French.
 
-Figure 5, in the article, presents a compound of all 384 tables produced by my topic modeling runs containing more than 5,000 topics.
+The following figure, in the article, presents a compound of all 384 tables produced by my topic modeling runs containing more than 5,000 topics.
 
 ![](images/Fig5.jpg)
