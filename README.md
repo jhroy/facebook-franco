@@ -50,9 +50,9 @@ This step is, IMHO, the most relevant and revealing of a newsless Facebook.
 
 For example, the most characteristic bigrams of the media and non-media canadian subcorpora really show how different Facebook would be without news.
 
-![]( bigrams-canada-media.png.png)
+![](bigrams-canada-media.png)
 
-![]( bigrams-canada-nonmedia.png.png)
+![](bigrams-canada-nonmedia.png)
 
 ### Step 3 : topic modeling
 
