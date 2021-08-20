@@ -72,17 +72,17 @@ Topics for **media** subcorpora (June 2020)&nbsp;:
 
 - In Belgium 🇧🇪 :
 
-  - [As given by the **first run with spaCy's model** (20 topics, 2 terms each, 20 terms per topic)](bertopic/belgique-spacy1-media-2020-06.csv)
-  - [As given by the **second run with spaCy's model** (12 topics, 1-2 terms each, 8 terms per topic)](bertopic/belgique-spacy2-media-2020-06.csv)
-  - [As given by the **FlauBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](bertopic/belgique-flaubert-media-2020-06.csv)
-  - [As given by the **CamemBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](bertopic/belgique-camembert-media-2020-06.csv)
+  - [As given by the **first run with spaCy's model** (20 topics, 2 terms each, 20 terms per topic)](berTOPIC/belgique-spacy1-media-2020-06.csv)
+  - [As given by the **second run with spaCy's model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/belgique-spacy2-media-2020-06.csv)
+  - [As given by the **FlauBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/belgique-flaubert-media-2020-06.csv)
+  - [As given by the **CamemBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/belgique-camembert-media-2020-06.csv)
 
 - In Canada 🇨🇦 :
 
-  - [As given by the **first run with spaCy's model** (20 topics, 2 terms each, 20 terms per topic)](bertopic/canada-spacy1-media-2020-06.csv)
-  - [As given by the **second run with spaCy's model** (12 topics, 1-2 terms each, 8 terms per topic)](bertopic/canada-spacy2-media-2020-06.csv)
-  - [As given by the **FlauBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](bertopic/canada-flaubert-media-2020-06.csv)
-  - [As given by the **CamemBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](bertopic/canada-camembert-media-2020-06.csv)
+  - [As given by the **first run with spaCy's model** (20 topics, 2 terms each, 20 terms per topic)](berTOPIC/canada-spacy1-media-2020-06.csv)
+  - [As given by the **second run with spaCy's model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/canada-spacy2-media-2020-06.csv)
+  - [As given by the **FlauBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/canada-flaubert-media-2020-06.csv)
+  - [As given by the **CamemBERT model** (12 topics, 1-2 terms each, 8 terms per topic)](berTOPIC/canada-camembert-media-2020-06.csv)
 
 Topics for media subcorpora (Canada, June 2020)&nbsp;:
 Topics for media subcorpora (France, June 2020)&nbsp;:
