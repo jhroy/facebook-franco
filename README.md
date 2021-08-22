@@ -60,7 +60,7 @@ For example, the most characteristic bigrams of the media and non-media canadian
 
 The last step involved an exploratory topic modeling on all 8 subcorpora using [BERTopic](https://maartengr.github.io/BERTopic/index.html) using the following script&nbsp;:
 
-- [**topicBERT.py**](topicBERT.py)
+- [**topicBERT.py**](topicBERT.py) (including my own list of stopwords in the file [**blabla.py**](blabla.py))
 
 I used BERTopic with three different models&nbsp;:
 
