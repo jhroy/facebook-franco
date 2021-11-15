@@ -44,7 +44,6 @@ for pays in francophonie:
 
         doc = tal(texte)
 
-        mots = [token.lemma_ for token in doc if token.is_stop == False and token.is_punct == False and len(token) > 1 and " " not in token.text and "\n" not in token.text and "http" not in token.text]
         mots = [token.lemma_ for token in doc if token.is_stop == False and \
                     token.is_punct == False and \
                     " " not in token.text and \
