@@ -2,7 +2,7 @@
 
 ![](images/repository-open-graph-template.png)
 
-This repository relates to an article published in journal on day month, 202x. 
+This repository relates to an article [prepublished in SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=39622310) on Nov. 18, 2021, and accepted for publication in [First Monday](https://firstmonday.org) on April 10, 2022. 
 
 For this article, I first proceded to extract the 300&nbsp;000 posts which garnered the most attention on pages administered mainly in Belgium, Canada, France and Switzerland for each month of the year 2020. After filtering this 13.4M-post initial sample, as decribed in the article, I kept a final sample of 3.3M posts in French.
 
