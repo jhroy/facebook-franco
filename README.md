@@ -2,7 +2,7 @@
 
 ![](images/repository-open-graph-template.png)
 
-This repository relates to an article [prepublished in SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3962231) on Nov. 18, 2021, and accepted for publication in [First Monday](https://firstmonday.org) on April 10, 2022. 
+This repository relates to [an article published in the July 2022 issue of *First Monday*](https://firstmonday.org/ojs/index.php/fm/article/view/11815). A [pre-print version was published on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3962231) in November 2021.
 
 For this article, I first proceded to extract the 300&nbsp;000 posts which garnered the most attention on pages administered mainly in Belgium, Canada, France and Switzerland for each month of the year 2020. After filtering this 13.4M-post initial sample, as decribed in the article, I kept a final sample of 3.3M posts in French.
 
@@ -55,6 +55,16 @@ For example, the most characteristic bigrams of the media and non-media canadian
 ![](images/bigrams-canada-media.png)
 
 ![](images/bigrams-canada-nonmedia.png)
+
+In the paper, compound graphs were published showing which terms were most characteristic in all four countries for media pages...
+
+![](images/Fig2.jpg)
+
+... and for non-media pages.
+
+![](images/Fig3.jpg)
+
+The numbers at the right of the bars show the number of countries (two or more) in which the terms were found.
 
 ### Step 3 : topic modeling
 
